@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 })
 export class SquareComponent {
 
-  constructor() { }
+  
 
 
 
