@@ -6,7 +6,10 @@
 </h2>
 
 <main>
-    <app-square *ngFor="let val of squares; let i=index">
-
+    <app-square
+     *ngFor="let val of squares; let i=index"
+      value="val"
+     (click)=makethemove()>
     </app-square>
+    
 </main>
