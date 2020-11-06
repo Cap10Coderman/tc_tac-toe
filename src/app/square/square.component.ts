@@ -6,8 +6,10 @@ import { Component, Input } from '@angular/core';
     <button> {{value}}</button>
   
   `,
-  styles: ['button{font-size:150px ; }']
+  styles: ['button{padding: 60px 60px;font-size:50px; }']
+  
 })
+
 export class SquareComponent {
 
   
