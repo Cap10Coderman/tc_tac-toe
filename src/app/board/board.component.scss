@@ -1,10 +1,21 @@
 main{
     display: grid;
-    grid-template-columns: 180px 180px 180px;
+    grid-template-columns: 100px 100px 100px;
     grid-gap: 0px;
 }
 app-square
 {
     border: 5px gray solid;
     height: 200px;
+}
+
+column{
+      float:left;
+      width:50%;
+
+}
+row::after{
+    content:"";
+    display:table;
+    clear: both;
 }
