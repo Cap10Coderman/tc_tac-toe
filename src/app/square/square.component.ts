@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
     <button> {{value}}</button>
   
   `,
-  styles: ['button{padding: 60px 60px;font-size:50px; }']
+  styles: ['button{padding: 40px ;font-size:25px; }']
   
 })
 

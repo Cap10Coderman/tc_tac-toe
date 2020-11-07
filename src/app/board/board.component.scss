@@ -1,21 +1,13 @@
 main{
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 0px;
+    grid-template-columns: 115px 115px 115px;
+    text-align:center;
+    
+    font-size: 30px;
+    padding:20px;
 }
 app-square
 {
     border: 5px gray solid;
-    height: 200px;
-}
-
-column{
-      float:left;
-      width:50%;
-
-}
-row::after{
-    content:"";
-    display:table;
-    clear: both;
+    height: 110px;
 }
