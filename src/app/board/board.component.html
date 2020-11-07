@@ -1,5 +1,11 @@
 <h1>Current player{{player}}</h1>
-
+<style>
+    .button
+{
+    padding: 60px 60px;
+    font-size:50px;
+}
+</style>
 <button (click)="newgame()">START NEWGAME</button>
 
 <h2 *ngIf="winner">
@@ -12,5 +18,5 @@
       [value]="val"
      (click)=makethemove(i)>
     </app-square>
-    
+
 </main>
