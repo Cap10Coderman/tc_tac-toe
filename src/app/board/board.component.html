@@ -3,7 +3,7 @@
 -->
 <style>
     h1{
-        text-indent: 1000px; 
+        text-indent: 100px; 
         font-family: Arial, Helvetica, sans-serif;
         font-size: 50px;
     }
@@ -28,10 +28,6 @@
 <h1>TIC-TAC-TOE</h1>
 
 <button (click)="newgame()">START NEWGAME</button>
-
-<h2 *ngIf="winner">
-    Player{{winner}} won the game 
-</h2>
 <div class="row">
     <div class="column">
                     <main >
@@ -47,8 +43,14 @@
 
     <div class="column">
                    <h2>Current player</h2>
-                    <h3>{{player}}</h3>      
-
+                    <h3>{{player}}</h3> 
+                    <h2 *ngIf="winner">
+                        Player&nbsp;{{winner}} won the game 
+                    </h2>
+                    <br>
+                    <br> 
+                    <button (click)="newgame()">START NEWGAME</button>    
+                    
     </div>
 </div>
 
