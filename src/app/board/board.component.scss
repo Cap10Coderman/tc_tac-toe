@@ -12,6 +12,8 @@ app-square
     height: 110px;
     
 }
+
+
 * {
     box-sizing: border-box;
   }
@@ -26,3 +28,17 @@ app-square
     padding: 10px;
     height: 500px; 
   }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 200px;
+    cursor: pointer;
+  }
+
+  .button1 {background-color: #4CAF50;}
