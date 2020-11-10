@@ -9,6 +9,7 @@ export class BoardComponent implements OnInit {
   squares:any[];
   xisnext:boolean;
   winner:string;
+  tie:string;
 
   constructor() { }
 
@@ -21,6 +22,7 @@ export class BoardComponent implements OnInit {
     this.squares=Array(9).fill(null);
     this.winner=null;
     this.xisnext=true;
+   
 
   }
 
@@ -65,7 +67,10 @@ export class BoardComponent implements OnInit {
      {
        return this.squares[a];
      }
+     
   }
-   return null;
+
+  return null;
+
 }
 }
