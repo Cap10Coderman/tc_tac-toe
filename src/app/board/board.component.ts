@@ -22,6 +22,7 @@ export class BoardComponent implements OnInit {
     this.squares=Array(9).fill(null);
     this.winner=null;
     this.xisnext=true;
+    this.tie=null;
    
 
   }
